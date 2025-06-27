@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: __Inter_e66fe9, __Inter_Fallback, __Roboto_e66fe9, __Roboto_Fallback, sans-serif;
+    font-variation-settings: normal
+}
+
+body {
+    margin: 0;
+    line-height: inherit
+}
+
+.carousel {
+    margin-top: 11.5rem;
+}
+.carousel__text p {
+    color:rgb(117 118 147) ;
+}
+.botton { margin-top: 2rem;}
+
+.botton { margin-top: 2rem;}
+
+.bg-meta {
+    --tw-bg-opacity: 1;
+    background-color: rgb(32 197 168 / var(--tw-bg-opacity));
+}
+
+.carousel__text {
+    color: rgb(117 118 147);
+}
+
+.images__background {
+    height: 100vh;  
+    background-image: 
+    
+      url('./../images/shape-dotted-light.svg'),
+      url('./../images/shape-05.png'),
+      url('./../images/shape-04.png');
+      
+      
+    background-position: center center, bottom right, top left; /* Đặt các SVG chồng lên nhau ở giữa */
+    background-repeat: no-repeat, no-repeat, no-repeat; /* Không lặp lại */
+    background-size: 100% 100%, 132px 132px, 335px 384px; /* Điều chỉnh kích thước các SVG */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.Send {
+    width: 70%;
+}
+.find {
+    width: 30%;
+}
+
+.footer__left {
+    width: 40%;
+}
+.footer__right {
+    width: 60%;
+}
+
+.container__tp {
+    width: 80%;
+}
+
+.bg__Solid {
+    background-image: url('./../images/shape-dotted-light.svg');
+}
+
+.border-stroke {
+    --tw-border-opacity: 1;
+    border-color: rgb(238 238 238/var(--tw-border-opacity));
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow-solid-7 {
+    --tw-shadow: 0px 30px 50px rgba(45,74,170,.1);
+    --tw-shadow-colored: 0px 30px 50px var(--tw-shadow-color)
+
+}
+
+
+
+.backtotop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out { 
+    opacity: .5;
+  }
+
+  .group-hover\:scale-110 {
+}
